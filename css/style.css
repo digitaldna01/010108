@@ -1,0 +1,309 @@
+
+/* title font size */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.tit-4xl {
+  font-size: 60px;
+}
+
+.tit-2xl {
+  font-size: 36px;
+}
+
+.tit-1xl {
+  font-size: 30px;
+}
+
+.tit-xl {
+  font-size: 28px;
+}
+
+.tit-lg {
+  font-size: 24px;
+}
+
+.tit-md {
+  font-size: 21px;
+}
+
+.tit-sm {
+  font-size: 18px;
+}
+
+.tit-xs {
+  font-size: 16px;
+}
+
+
+/* text font size */
+
+.txt-3xl {
+  font-size: 29px;
+}
+
+.txt-2xl {
+  font-size: 21px;
+}
+
+.txt-lg {
+  font-size: 18px;
+}
+
+.txt-md {
+  font-size: 16px;
+}
+
+.txt-sm {
+  font-size: 14px;
+}
+
+.txt-xs {
+  font-size: 12px;
+}
+
+.txt-2xs {
+  font-size: 10px;
+}
+
+.text-cap {
+  text-transform: capitalize;
+}
+
+.text-sm-cap {
+  font-variant: small-caps;
+}
+
+#font-gfs {
+  font-family: "GFS Didot", sans-serif;
+}
+
+.font-mont {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-gfs {
+  color: #000000;
+  font-family: 'GFS Didot', serif;
+}
+
+.font-ropa {
+  color: #000000;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.font-robo {
+  color: #000000;
+  font-family: 'Roboto Slab', serif;
+}
+
+.font-ardau {
+  color: #000000;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.font-montalt{
+  color: #000000;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.txt-rl {
+  text-align: right;
+}
+
+.text-down {
+  writing-mode: vertical-rl;
+}
+
+input[type=password] {
+  font-family: 'Montserrat', dotum, sans-serif;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}
+
+.pink {
+  color: #EB8F90;
+}
+
+.pink-drk {
+  color: #B66064;
+}
+
+.pink-lgt {
+  color: #F3BABB;
+}
+
+.blue{
+  color:#134169;
+}
+
+.blue-drk{
+  color:#0B263E;
+}
+.blue-lgt{
+  color:#1A5B95;
+}
+/* arrange */
+
+.parent-rel {
+  position: relative;
+}
+
+.child-ver-top {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.child-ver-cent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.child-ver-cent-alt{
+  position: absolute;
+  top: 50%;
+
+}
+.child-ver-start {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.child-ver-end {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.child-ver-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* counting - down */
+.contain{
+  color: rgba(55, 59, 65, 0.8);
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.contain li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+.contain li span {
+  display: block;
+  font-size: 4.5rem;
+}
+/* border color */
+
+.input-border {
+  border: 2px solid #000000;
+}
+
+/* lock page */
+
+
+.pwbox{
+  margin: 24px; 
+  text-align: center;
+  border: none;
+}
+
+.pwbox:focus
+{
+    border: 4px solid #0B263E;
+    box-shadow: 0 0 3px #0B263E;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.blink {
+  border: 4px solid;
+    -webkit-animation-name: blackred;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2s; 
+}   
+
+@-webkit-keyframes blackred {  
+  0% { border-color: red; }
+  25% { border-color: #0B263E; }
+  50% { border-color: red; }
+  75% { border-color: #0B263E; }
+  100% { border-color: red; }
+}
+
+.gift-icon {
+  width: 104px;
+  height: 104px;
+  background-image: url("source/icons/birthday_box.svg");
+}
+
+/* nav */
+
+#brand:focus,
+#brand:hover{
+  color: #EB8F90 !important;
+}
+.cover-nav-list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.cover-nav-list-icon {
+  background-image: url("../source/icons/close_black.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* cover page */
+
+
+
+/* #cover{display: none;} */
+
+.image-cover {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* gallery cover */
+
+.more-btn {
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+}
+
+/* copy */
+
+.copyright {
+  margin-bottom: 16px;
+
+  text-align: center;
+  color: #EB8F90;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+
+}
