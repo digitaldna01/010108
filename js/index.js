@@ -4,7 +4,7 @@
 const birthdate = 010108;
 /* counting down */
 const config = {
-  birthdate: 'Jan 8, 2022',
+  birthdate: 'Jan 8, 2021',
   name: 'Ailee'
 };
 
